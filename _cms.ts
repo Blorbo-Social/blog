@@ -74,7 +74,7 @@ cms.document(
         "description: text",
         "title: text",
         "image: text",
-        "twitter: text",
+        "fediverse: text",
         "lang: text",
         "generator: checkbox",
       ],

@@ -7,6 +7,6 @@ metas:
   description: News & other info about Blorbo.Social!
   title: =title
   image: =image
-  twitter: '@username'
+  fediverse: =fediverse
   lang: en
-  generator: true
+  generator: false
