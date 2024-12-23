@@ -3,7 +3,7 @@ layout: layouts/page.vto
 title: Contact
 url: /contact/
 menu:
-  visible: true
+  visible: false
   order: 2
 ---
 

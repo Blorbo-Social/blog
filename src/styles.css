@@ -10,22 +10,69 @@
 
 /* Make the links black */
 :root {
-  --color-link: var(--color-base);
-  --color-link-hover: var(--color-dim);
+      --color-link: var(--color-base);
+      --color-link-hover: var(--color-dim);
+      --color-background: #232834;
+      --blog-title: 400 clamp(1.5rem, 8vw, 3rem) / 1.2 "Titan One", -apple-system, system-ui, sans-serif;
 }
 
 /* Page layout */
 main {
-  padding: var(--row-gap-medium) 0;
-  max-width: min(100% - 15vw, 45em);
-  margin: 0 auto;
+      padding: var(--row-gap-medium) 0;
+      max-width: min(100% - 15vw, 45em);
+      margin: 0 auto;
 
-  & > :first-child {
-    margin-top: 0;
-  }
+      & > :first-child {
+            margin-top: 0;
+      }
 }
 
 /* Search tweak */
 .search {
-  margin-top: var(--row-gap-xsmall);
+      margin-top: var(--row-gap-xsmall);
+}
+
+a {
+      text-decoration: none;
+      border-bottom: 4px solid #ababfe;
+      padding-bottom: 2px;
+}
+
+a:hover {
+      color: #ababfe;
+}
+
+p {
+      color: #eee;
+}
+
+em {
+      color: var(--color-text);
+}
+
+.page-title {
+      font: var(--blog-title);
+}
+
+.page-title a {
+      border: 0;
+      text-transform: none;
+}
+
+.body-home .navbar {
+      display: none;
+}
+
+.new-line {
+      display: block;
+      width: 100%;
+}
+
+.badge {
+      border: 0;
+      padding: 0;
+}
+
+.badge::before {
+      content: "#";
 }

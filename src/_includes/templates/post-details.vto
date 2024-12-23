@@ -15,14 +15,16 @@
   </p>
 
   <p>{{ it.readingInfo.minutes }} {{ i18n.post.reading_time}}</p>
+  
+  <div class="new-line">
+    <div class="post-tags">
+      {{ for tag of tags }}
+        {{ set page = search.page(`type=tag tag="${tag}"`) }}
 
-  <div class="post-tags">
-    {{ for tag of tags }}
-      {{ set page = search.page(`type=tag tag="${tag}"`) }}
-
-      {{ if page }}
-        <a data-pagefind-filter="filter" class="badge" href="{{ page.url }}">{{ tag }}</a>
-      {{ /if }}
-    {{ /for }}
+        {{ if page }}
+          <a data-pagefind-filter="filter" class="badge" href="{{ page.url }}">{{ tag }}</a>
+        {{ /if }}
+      {{ /for }}
+    </div>
   </div>
 </div>
