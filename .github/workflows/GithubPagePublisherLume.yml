@@ -21,7 +21,7 @@ jobs:
                     uses: denoland/setup-deno@v2
 
                   - name: Build site
-                    run: deno task build --location=https://blorbo-social.github.io/blog/
+                    run: deno task build --location=https://blog.blorbo.social/
 
                   - name: Setup Pages
                     uses: actions/configure-pages@v5
