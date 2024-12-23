@@ -2,12 +2,12 @@ lang: en
 home:
   welcome: The Blorbo.Social Blog
 menu_links:
-  - title: Blorbo.Social on Mastodon
-    url: 'https://blorbo.social/about'
-  - title: Link Directory
-    url: 'https://links.blorbo.social'
-  - title: Status
-    url: 'https://status.blorbo.social'
+  - text: Blorbo.Social on Mastodon
+    href: 'https://blorbo.social/about'
+  - text: Link Directory
+    href: 'https://links.blorbo.social'
+  - text: Status
+    href: 'https://status.blorbo.social'
 metas:
   site: The Blorbo.Social Blog
   description: News & other info about Blorbo.Social!
