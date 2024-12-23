@@ -4,10 +4,13 @@ home:
 menu_links:
   - text: Blorbo.Social on Mastodon
     href: 'https://blorbo.social/about'
+    target: '_blank'
   - text: Link Directory
     href: 'https://links.blorbo.social'
+    target: '_blank'
   - text: Status
     href: 'https://status.blorbo.social'
+    target: '_blank'
 metas:
   site: The Blorbo.Social Blog
   description: News & other info about Blorbo.Social!
